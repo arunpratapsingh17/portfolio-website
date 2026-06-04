@@ -7,8 +7,9 @@ import Experience from './sections/Experience'
 import Skills from './sections/Skills'
 import Education from './sections/Education'
 import Contact from './sections/Contact'
+import Recommendations from './sections/Recommendations'
 
-const SECTIONS = ['about', 'experience', 'skills', 'education', 'contact']
+const SECTIONS = ['about', 'experience', 'skills', 'education', 'recommendations', 'contact']
 
 const CHAT_PAIRS = [
   {
@@ -36,6 +37,12 @@ const CHAT_PAIRS = [
     intro: 'I hold a B.Tech in Information Science Engineering with a strong academic record:',
   },
   {
+    id: 'recommendations',
+    emoji: '⭐',
+    question: 'What do your colleagues say about you?',
+    intro: 'Here\'s what people I\'ve worked with have said on LinkedIn:',
+  },
+  {
     id: 'contact',
     emoji: '📬',
     question: 'How can I get in touch with you?',
@@ -48,6 +55,7 @@ const QUICK_CHIPS = [
   { id: 'experience', label: '💼 Experience' },
   { id: 'skills', label: '⚙️ Skills' },
   { id: 'education', label: '🎓 Education' },
+  { id: 'recommendations', label: '⭐ Recommendations' },
   { id: 'contact', label: '📬 Contact' },
 ]
 
@@ -165,6 +173,7 @@ export default function App() {
                   {pair.id === 'experience' && <Experience />}
                   {pair.id === 'skills' && <Skills />}
                   {pair.id === 'education' && <Education />}
+                  {pair.id === 'recommendations' && <Recommendations />}
                   {pair.id === 'contact' && <Contact />}
                 </ArunMessage>
                 {idx < CHAT_PAIRS.length - 1 && <div className="section-divider" />}

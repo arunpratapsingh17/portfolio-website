@@ -12,7 +12,8 @@ const conversations = [
   { id: 'experience', label: 'Work Experience',     time: 'Now' },
   { id: 'skills',     label: 'Technical Skills',    time: 'Now' },
   { id: 'education',  label: 'Education',           time: 'Now' },
-  { id: 'contact',    label: 'Contact & Socials',   time: 'Now' },
+  { id: 'recommendations', label: 'Recommendations',    time: 'Now' },
+  { id: 'contact',         label: 'Contact & Socials',  time: 'Now' },
 ]
 
 export default function Sidebar({ activeSection, isOpen, onClose, onNav }: SidebarProps) {

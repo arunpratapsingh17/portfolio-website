@@ -149,4 +149,22 @@ export const data = {
     period: 'Aug 2017 – 2021',
     gpa: '8.5',
   },
+  recommendations: [
+    {
+      name: 'Deepak Kathuria',
+      title: 'Technical Lead at ET Money',
+      relation: 'Managed Arun Pratap directly',
+      date: 'May 2026',
+      avatar: 'https://media.licdn.com/dms/image/v2/C4D03AQHmymShty5GNA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516564183685?e=1782345600&v=beta&t=Gn_bfotBHoUydHAnqw424TgPT-6GBvUjCE084DUsC9I',
+      text: 'I had the pleasure of managing Arun Pratap and watching him evolve into an incredibly versatile and impactful engineer. He initially joined the team focusing on frontend development, but what sets him apart is his exceptional adaptability. Recognizing a team need, he quickly stepped up and seamlessly transitioned into delivering high-quality backend work as a true full-stack engineer. Beyond his core development skills, he is highly proactive and constantly looks for ways to optimize workflows. He brilliantly leveraged AI-assisted development tools like Cursor to accelerate our delivery and elevate code quality. Outside of his technical prowess, his discipline carries over into his passion for fitness and health tech, bringing a high-energy, focused mindset to the team every day. He is a fast learner, a natural problem solver, and an asset to any engineering team. I highly recommend him!',
+    },
+    {
+      name: 'Satish Tejankar',
+      title: 'VP - Sales & Partnerships | Fintech Business Leader',
+      relation: 'Senior to Arun Pratap at ET Money',
+      date: 'May 2026',
+      avatar: 'https://media.licdn.com/dms/image/v2/D5603AQHa-9R9zfhm-w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1707157729794?e=1782345600&v=beta&t=hlD-Z8HI0yZ52Eh-ntpOqdhruOitiP5q5oV7ehU-4oo',
+      text: 'I had the opportunity to work with Arun on Insurance Term and Health products, where he handled both frontend and backend development responsibilities. He was proactive, quick to take ownership, and consistently asked the right questions to understand business requirements thoroughly and deliver effectively. His ability to work across the stack and collaborate closely with business teams made him a valuable contributor to the team. I would gladly recommend him for full-stack development roles.',
+    },
+  ],
 }
