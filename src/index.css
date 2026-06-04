@@ -33,7 +33,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-#root { height: 100%; display: flex; }
+#root { height: 100%; height: 100dvh; display: flex; }
 
 /* ─── LAYOUT ─── */
 
@@ -41,6 +41,7 @@ body {
   display: flex;
   width: 100%;
   height: 100vh;
+  height: 100dvh;
   overflow: hidden;
 }
 
@@ -49,6 +50,7 @@ body {
 .sidebar {
   width: var(--sidebar-width);
   height: 100vh;
+  height: 100dvh;
   background: var(--sidebar-bg);
   border-right: 1px solid var(--border);
   position: fixed;
@@ -258,6 +260,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  height: 100dvh;
   overflow: hidden;
 }
 
@@ -1026,7 +1029,7 @@ body {
 @media (max-width: 768px) {
   .sidebar { transform: translateX(-100%); }
   .sidebar.open { transform: translateX(0); box-shadow: 8px 0 32px rgba(0,0,0,0.6); }
-  .main { margin-left: 0; }
+  .main { margin-left: 0; height: 100svh; }
   .mobile-header { display: flex; }
   .chat-header { padding-left: 1.25rem; }
   .chat-scroll { padding-top: 52px; }
