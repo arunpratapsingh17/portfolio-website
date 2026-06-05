@@ -1002,7 +1002,7 @@ body {
   .sidebar { transform: translateX(-100%); }
   .sidebar.open { transform: translateX(0); box-shadow: 8px 0 32px rgba(0,0,0,0.6); }
   .main { margin-left: 0; height: 100svh; }
-  .chat-header { padding-left: 1.25rem; }
+  .chat-header { display: none; }
   .chat-content { padding: 0 1rem; }
   .hero-name { font-size: 1.875rem; }
   .stats-row { grid-template-columns: repeat(2,1fr); }
