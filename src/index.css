@@ -967,34 +967,6 @@ body {
 
 .input-hint-error { color: var(--accent-light); }
 
-/* ─── MOBILE HEADER ─── */
-
-.mobile-header {
-  display: none;
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  height: 52px;
-  background: var(--sidebar-bg);
-  border-bottom: 1px solid var(--border);
-  padding: 0 1.25rem;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 200;
-}
-
-.menu-btn {
-  background: none;
-  border: 1px solid var(--border);
-  cursor: pointer;
-  color: var(--text-muted);
-  padding: 0.375rem;
-  border-radius: 7px;
-  display: flex;
-  align-items: center;
-  transition: all 0.15s ease;
-}
-
-.menu-btn:hover { background: var(--card-bg); color: var(--text); }
 
 .overlay {
   display: none;
@@ -1030,9 +1002,7 @@ body {
   .sidebar { transform: translateX(-100%); }
   .sidebar.open { transform: translateX(0); box-shadow: 8px 0 32px rgba(0,0,0,0.6); }
   .main { margin-left: 0; height: 100svh; }
-  .mobile-header { display: flex; }
   .chat-header { padding-left: 1.25rem; }
-  .chat-scroll { padding-top: 52px; }
   .chat-content { padding: 0 1rem; }
   .hero-name { font-size: 1.875rem; }
   .stats-row { grid-template-columns: repeat(2,1fr); }
